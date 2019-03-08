@@ -1,0 +1,26 @@
+{
+    "name": "colorful",
+    "displayName": "colorful",
+    "publisher": "Buttars",
+    "description": "A dirivative of the Panda Syntax Theme",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Buttars/colorful-vscode-theme"
+    },
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "colorful",
+                "uiTheme": "vs-dark",
+                "path": "./themes/colorful-color-theme.json"
+            }
+        ]
+    }
+}
